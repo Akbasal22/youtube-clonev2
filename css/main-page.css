@@ -1,0 +1,87 @@
+body {
+    zoom: 90%;
+    padding-bottom: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.main-page {
+    display: grid;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 2%;
+    background-color: rgb(248, 248, 248);
+}
+.video-container {
+    display: inline-block;
+
+}
+.video-details {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    vertical-align:top;
+}
+
+.thumbnail-container {
+    position:relative;
+    margin-bottom: 4px
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+.video-runtime {
+    position:absolute;
+    bottom: 5%;
+    right: 1%;
+    background-color: rgb(19, 19, 19);
+    opacity: 0.95;
+    color: white;
+    padding: 2px 5px 3px 5px;
+    border-radius: 10%;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture-container {
+    margin: 5px 5px 0px 2px 
+}
+.profile-picture {
+    border-radius: 50%;
+    width: 95%;
+    
+}
+.text-container {
+    margin-left:1%
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+.video-name {
+    font-weight: 650;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 2%;
+    
+}
+
+.views,
+.upload-time,
+.video-author {
+    padding-left: 3px;
+    display: inline-block;
+    color: rgb(96, 96, 96);
+    font-size: 18px ;
+}
+
